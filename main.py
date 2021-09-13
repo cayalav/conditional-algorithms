@@ -61,3 +61,14 @@ def num6(unit):
   elif unit >= 10:
     print("Descuento: "+ str(total*0.4))
   print("######################################################")  
+
+# Ejercicio 7
+def num7(price,marca):
+  if marca=="NOSY" & price >= 2000:
+    desc = price*0.15
+  else:
+    if price >= 2000:
+      desc = price*0.1
+  tot = price - desc
+  print("Total a pagar: "+tot)    
+  print("######################################################") 
