@@ -29,3 +29,16 @@ def num3(monto):
     monto=monto*0.02
     print("Total cuota a pagar: "+str(monto)) 
   print("######################################################")  
+
+# Ejercicio 4
+def num4(prom, dias_adicionales, gan_diarias, dias_prod_detenida):
+  if dias_prod_detenida:
+    perdida = gan_diarias*7
+    print("Total de perdida: "+str(perdida))
+  else  :
+    if (prom > 170):
+      perdida = (gan_diarias*0.5*dias_adicionales)
+      print("Total de perdida: "+str(perdida))
+    else:
+      print("No hay multa ni sanción")
+  print("######################################################") 
