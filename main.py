@@ -88,4 +88,14 @@ def num8(total):
   print("Cantidad a Prestamo: "+str(prest))  
   print("Cantidad a Credito: "+str(cred))  
   print("Cantidad de Intereses: "+str(inter))    
-  print("######################################################")  
+  print("######################################################") 
+
+# Ejercicio 9
+def num9(a,b):
+  if a==b:
+    print("Multiplicación: "+str(a*b))
+  elif a>b:
+    print("Multiplicación: "+str(a-b))
+  else:  
+    print("Multiplicación: "+str(a+b))
+  print("######################################################")   
