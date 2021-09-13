@@ -50,3 +50,14 @@ def num5(valor_auto, dev, inc_terreno):
   else:
     print("No compro el auto")
   print("######################################################")  
+
+# Ejercicio 6
+def num6(unit):
+  total = unit*11000
+  if unit < 5:
+    print("Descuento: "+ str(total*0.1))
+  elif unit >= 5:
+    print("Descuento: "+ str(total*0.2))
+  elif unit >= 10:
+    print("Descuento: "+ str(total*0.4))
+  print("######################################################")  
