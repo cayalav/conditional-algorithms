@@ -64,13 +64,13 @@ def num6(unit):
 
 # Ejercicio 7
 def num7(price,marca):
-  if marca=="NOSY" & price >= 2000:
+  if (marca=="NOSY") & price >= 2000:
     desc = price*0.15
   else:
     if price >= 2000:
       desc = price*0.1
   tot = price - desc
-  print("Total a pagar: "+tot)    
+  print("Total a pagar: "+str(tot))    
   print("######################################################") 
 
 # Ejercicio 8
@@ -98,4 +98,29 @@ def num9(a,b):
     print("Multiplicación: "+str(a-b))
   else:  
     print("Multiplicación: "+str(a+b))
-  print("######################################################")   
+  print("######################################################") 
+
+# Ejercicio 10
+def num10(a,b,c):
+  if a > b:
+    if a > c:
+      print(a)
+    else: 
+      print(c)
+  else:
+    if b > c:
+      print(b)
+    else:
+      print (c)
+  print("######################################################")       
+
+num1(3,3000)
+num2(43,5000)
+num3(800000)
+num4(180, 3, 300, False)
+num5(100, 0.3,300)
+num6(5)
+num7(2000,"SONY") 
+num8(2341234)
+num9(5,10)
+num10(5,2,10)
