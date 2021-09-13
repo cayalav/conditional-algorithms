@@ -72,3 +72,20 @@ def num7(price,marca):
   tot = price - desc
   print("Total a pagar: "+tot)    
   print("######################################################") 
+
+# Ejercicio 8
+def num8(total):
+  if total>500000:
+    inv=total*0.55
+    prest=total*0.3
+    cred=total*0.15
+  else:
+    inv=total*0.7
+    prest=0
+    cred=total*0.3
+  inter=cred*0.2
+  print("Cantidad a Invertir: "+str(inv))
+  print("Cantidad a Prestamo: "+str(prest))  
+  print("Cantidad a Credito: "+str(cred))  
+  print("Cantidad de Intereses: "+str(inter))    
+  print("######################################################")  
