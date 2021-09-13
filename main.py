@@ -42,3 +42,11 @@ def num4(prom, dias_adicionales, gan_diarias, dias_prod_detenida):
     else:
       print("No hay multa ni sanción")
   print("######################################################") 
+
+# Ejercicio 5
+def num5(valor_auto, dev, inc_terreno):
+  if valor_auto*dev < inc_terreno/2:
+    print("Compro el auto")
+  else:
+    print("No compro el auto")
+  print("######################################################")  
